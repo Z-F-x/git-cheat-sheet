@@ -39,3 +39,18 @@
 ## Install repos from repo list
 
 `gh repo clone yourusername/repo-name`
+
+## Create new branch
+`git branch branchName`
+
+## Create new branch and switch to it
+`git checkout -b branchName`
+
+## Create Multiple branches from the same point
+```git checkout -b branch1 main  # Creates branch1 from 'main'
+git checkout main             # Switch back to main
+git checkout -b branch2 main  # Creates branch2 from 'main'```
+
+## List all branches 
+`git branch`
+
