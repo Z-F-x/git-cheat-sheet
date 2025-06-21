@@ -54,3 +54,6 @@ git checkout -b branch2 main  # Creates branch2 from 'main'```
 ## List all branches 
 `git branch`
 
+## Create and push files from local branch to git
+`git push -u origin branchName`
+
